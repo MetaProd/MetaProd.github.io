@@ -5,7 +5,7 @@
  */
 body {
     overflow-x: hidden;
-    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    /*font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/ }
 
 p {
     line-height: 1.75; }
@@ -616,14 +616,15 @@ fieldset[disabled] .btn-xl:hover {
 
 .conteneur
 {
-position: relative;
 }
 
 .conteneur iframe
 {
-position: absolute;
-top: 0;
-left: 0;
 width: 100vh;
 height: 50vh;
 }
+
+.linkpresta > a {
+        color: black;
+        text-decoration: none;
+    }
