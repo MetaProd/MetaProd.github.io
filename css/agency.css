@@ -614,14 +614,19 @@ fieldset[disabled] .btn-xl:hover {
     padding: 0px !important;
 }
 
-.conteneur
-{
-}
 
 .conteneur iframe
 {
 width: 100vh;
 height: 50vh;
+}
+
+@media (max-width: 640px) {
+.conteneur iframe
+{
+width: 45vh;
+height: 50vh;
+}
 }
 
 .linkpresta > a {
