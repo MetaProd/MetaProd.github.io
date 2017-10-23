@@ -102,8 +102,8 @@
 	font-weight: 400;
 	position: absolute;
 	right: 15px;
-	color: #e53369;
-	bottom: 0;
+	color: #e53369; /* Small text color */
+	bottom: 01111;
 	opacity: 0;
 	-webkit-transform: translate3d(-10px,-10px,0);
 	transform: translate3d(-10px,-10px,0);
