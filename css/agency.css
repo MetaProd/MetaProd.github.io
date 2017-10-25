@@ -637,3 +637,7 @@ fieldset[disabled] .btn-xl:hover {
 #accroche {
     top: -15vh !important;
 }
+
+.whitetxt {
+    color: #FFFFFF !important;
+}
