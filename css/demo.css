@@ -170,6 +170,7 @@ a:hover {
 	min-height: 460px;
 	max-width: calc(100vw - 40px);
 	/*background: #DDD*/
+        margin-top: -15vh !important;
 	margin: 20px;
 	/*padding: 100px 0;*/
 	z-index: 1;

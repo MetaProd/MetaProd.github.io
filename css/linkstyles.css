@@ -15,14 +15,14 @@
 	font-weight: 900;
 	overflow: hidden;
 	line-height: 0.75;
-	color: #c5c2b8;
+	color: #FFFFFF;
 }
 
 .link--kukuri:hover {
-	color: #c5c2b8;
+	color: #424242 ;
 }
 
-.link--kukuri::after {
+.link--kukuri::after { /*barre qui traverse*/
 	content: '';
 	position: absolute;
 	height: 16px;
@@ -30,7 +30,7 @@
 	top: 50%;
 	margin-top: -8px;
 	right: 0;
-	background: #F9F9F9;
+	background: #FFFFFF;
 	-webkit-transform: translate3d(-100%,0,0);
 	transform: translate3d(-100%,0,0);
 	-webkit-transition: -webkit-transform 0.4s;
@@ -41,7 +41,7 @@
 
 .link--kukuri:hover::after {
 	-webkit-transform: translate3d(100%,0,0);
-	transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,100%);
 }
 
 .link--kukuri::before {
@@ -49,7 +49,7 @@
 	position: absolute;
 	z-index: 2;
 	overflow: hidden;
-	color: #424242;
+	color: #dcdbff;
 	white-space: nowrap;
 	width: 0%;
 	-webkit-transition: width 0.4s 0.3s;
