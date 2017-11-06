@@ -6,6 +6,7 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		var selected_member = $(this).data('type');
 		$('.cd-member-bio.'+selected_member+'').addClass('slide-in');
+                $('#mainNav').hide();
 		$('.cd-member-bio-close').addClass('is-visible');
 
 		// firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
@@ -24,6 +25,7 @@ jQuery(document).ready(function($){
 	$(document).on('click', '.cd-overlay, .cd-member-bio-close', function(event){
 		event.preventDefault();
 		$('.cd-member-bio').removeClass('slide-in');
+                $('#mainNav').show();
 		$('.cd-member-bio-close').removeClass('is-visible');
 
 		if( is_firefox ) {
