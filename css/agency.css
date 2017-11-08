@@ -478,6 +478,56 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c; }
 
+
+
+section#contactmod {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-position: center; }
+section#contactmod .form-group {
+    margin-bottom: 25px; }
+section#contactmod .form-group input,
+section#contactmod .form-group textarea {
+    padding: 20px; }
+section#contactmod .form-group input.form-control {
+    height: auto;}
+section#contactmod .form-group textarea.form-control {
+    height: 236px;}
+section#contactmod .form-control:focus {
+    border-color: #e74c3c;
+    box-shadow: none; }
+section#contactmod ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #c1c1c1;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+section#contactmod :-moz-placeholder {
+    font-weight: 700;
+    color: #c1c1c1;
+    /* Firefox 18- */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+section#contactmod ::-moz-placeholder {
+    font-weight: 700;
+    color: #c1c1c1;
+    /* Firefox 19+ */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+section#contactmod :-ms-input-placeholder {
+    font-weight: 700;
+    color: #c1c1c1;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+section#contactmod .text-danger {
+    color: #e74c3c; }
+
+
+
+
+
+
 footer {
     padding: 25px 0;
     text-align: center; }

@@ -11,11 +11,15 @@ $(function() {
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
+      var subject = $("input#subject").val();
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
+      }
+      if (subject.valueOf() === "") {
+          subject = "Contact à raison informatif";
       }
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
@@ -25,6 +29,7 @@ $(function() {
         data: {
           name: name,
           phone: phone,
+          subject: subject,
           email: email,
           message: message
         },
